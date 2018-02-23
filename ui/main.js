@@ -6,7 +6,7 @@ button.onclick = function(){
     //create a request
    counter=counter+1;
    var span=document.getElementById('count');
-   span.innerHTM=counter.toString();
+   span.innerHTML=counter.toString();
 
     
 };
